@@ -24,8 +24,8 @@ Follow the steps below to clone the repository, install dependencies, and run th
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-nextjs-app.git
-cd your-nextjs-app
+git clone https://github.com/edwardo1239/prueba_Inlaze_back_end
+cd prueba_Inlaze_back_end
 ```
 
 ### 2. Install Dependencies
