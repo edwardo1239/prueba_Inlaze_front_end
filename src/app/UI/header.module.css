@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 42px;
+    
+    position: relative;
+    width: 100%;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    
+    background: #000000;
+
+
+}
+
+
+.container_logo {
+    width: 164px;
+    height: 42px;
+    margin-left: 100px;
+}
+.container_logo:hover {
+    cursor: pointer;
+}
+
+
+.header_button {
+
+
+    width: 84px;
+    height: 36px;
+
+    background: #000000;
+    border: none;
+
+    width: 52px;
+    height: 14px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+
+
+    color: #F6F6F6;
+
+    transition: all 0.3s ease;
+
+}
+
+.header_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header_button:active {
+    animation: pulse 0.3s ease-in-out;
+    
+}
+
+.inicio_sesion_button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;  
+    right: 100px;  
+    top: 40%;
+    
+    width: 84px;
+    height: 36px;
+
+    background: #000000;
+    border: none;
+
+    width: 52px;
+    height: 14px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+
+
+    color: #F6F6F6;
+
+    transition: all 0.3s ease;
+}
+
+.inicio_sesion_button:hover {
+    text-decoration: underline;
+}
+
+.inicio_sesion_button:active{
+    animation: pulse .3s ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .container {
+        justify-content: center;
+        align-items: center;
+    }
+
+.inicio_sesion_button{
+    right: 0px;  
+
+}
+
+.container_logo{
+    margin: 0;
+}
+
+.header_button {
+    display: none;
+}
+
+    /* Puedes añadir más estilos aquí para ajustar otros elementos */
+}
